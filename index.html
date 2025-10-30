@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="login-container">
+    <h1 class="app-title">Welcome Back!</h1>
+    <form class="login-form" onsubmit="return validateLogin(event)">
+      <div class="input-group">
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Enter your username" required />
+      </div>
+
+      <div class="input-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter your password" required />
+      </div>
+
+      <button type="submit" class="login-btn">Login</button>
+      <p class="signup-text">Don't have an account? <a href="#">Sign up</a></p>
+    </form>
+  </div>
+
+  <!-- ⬇️ Masukkan JavaScript langsung di sini -->
+  <script>
+    function validateLogin(event) {
+      event.preventDefault(); // supaya tidak reload halaman
+
+      const username = document.getElementById('username').value.trim();
+      const password = document.getElementById('password').value.trim();
+
+      // Data login contoh
+      const validUser = "fitri";
+      const validPass = "12345";
+
+      if (username === validUser && password === validPass) {
+        alert("Login successful!");
+        localStorage.setItem("isLoggedIn", "true");
+        window.location.href = "home.html"; // pindah ke halaman baru
+      } else {
+        alert("Invalid username or password!");
+      }
+    }
+  </script>
+</body>
+</html>
