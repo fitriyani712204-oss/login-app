@@ -24,6 +24,7 @@ A simple **Login UI project** with custom colors, fonts, and theme.
 ## 📸 Screenshot
 ![Login UI](./Screenshot%20(21).png)
 ![Login Sukses](./Screenshot%20(22).png)
+![Logout](./Screenshot%20(18).png)
 
 
 
@@ -33,6 +34,7 @@ A simple **Login UI project** with custom colors, fonts, and theme.
 **Made for:** Universitas Teknologi Bandung  
 **Course:** Pemrograman Berbasis Web  
 **Good Luck Guys 😊**
+
 
 
 
