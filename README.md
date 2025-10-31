@@ -22,7 +22,8 @@ A simple **Login UI project** with custom colors, fonts, and theme.
 3. If login is successful, you’ll be redirected to `home.html`.
 
 ## 📸 Screenshot
-![Login UI](https://github.com/fitriyani712204/login-app/Screenshot(21).png)
+![Login UI](./Screenshot%20(21).png)
+
 
 
 ---
@@ -30,6 +31,7 @@ A simple **Login UI project** with custom colors, fonts, and theme.
 **Made for:** Universitas Teknologi Bandung  
 **Course:** Pemrograman Berbasis Web  
 **Good Luck Guys 😊**
+
 
 
 
