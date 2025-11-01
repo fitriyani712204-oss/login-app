@@ -3,9 +3,9 @@
 A simple **Login UI project** with custom colors, fonts, and theme.
 
 ## 👥 Group Members
-- [Nama 1]
-- [Nama 2]
-- [Nama 3]
+- [Fitriyani-232101114]
+- [Dendi Supriadin-232101115]
+- [Yogi-232101130]
 
 ## 🎨 Features
 - Custom gradient background
@@ -34,6 +34,7 @@ A simple **Login UI project** with custom colors, fonts, and theme.
 **Made for:** Universitas Teknologi Bandung  
 **Course:** Pemrograman Berbasis Web  
 **Good Luck Guys 😊**
+
 
 
 
